@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  background-color: #f267b0;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+li {
+  padding: 10px 20px;
+  transition: 0.8s all;
+}
+li:hover {
+  background-color: #ff0086;
+}
+a {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  ul {
+    text-align: center;
+    flex-direction: column;
+  }
+  li {
+    border-bottom: 1px solid white;
+  }
+}
